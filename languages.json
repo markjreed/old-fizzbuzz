@@ -1,0 +1,67 @@
+[
+  {
+    "name": "ALGOL",
+    "version": "Algol-68",
+    "tested-with": "Algol-68 Genie",
+    "file": "fizzbuzz.a68",
+    "run": "a68g"
+  },
+  {
+    "name": "COBOL",
+    "version": "COBOL-85",
+    "tested-with": "GNU (formerly Open) COBOL",
+    "file": "fizzbuzz.cob",
+    "compile": "cobc -x",
+    "run": "./fizzbuzz"
+  },
+  {
+    "name": "PL/I",
+    "version": "VM/MVS 1.1",
+    "tested-with": "N/A",
+    "file": "fizzbuzz.pl1"
+  },
+  {
+    "name": "PASCAL",
+    "version": "ISO",
+    "tested-with": "Free Pascal Compiler",
+    "file": "fizzbuzz.p",
+    "compile": "fpc",
+    "run": "./fizzbuzz"
+  },
+  {
+    "name": "LISP",
+    "version": "ANSI Common Lisp",
+    "tested-with": "clisp",
+    "file": "fizzbuzz.cl",
+    "run": "clisp"
+  },
+  {
+    "name": "APL",
+    "version": "Dyalog",
+    "tested-with": "Dyalog",
+    "file": "fizzbuzz.apl"
+  },
+  {
+    "name": "FORTRAN",
+    "version": "Fortran-77",
+    "tested-with": "GNU Fortran",
+    "file": "fizzbuzz.f",
+    "compile": "gfortran",
+    "run": "./a.out"
+  },
+  {
+    "name": "LOGO",
+    "version": "Berkeley Logo",
+    "tested-with": "Berkeley Logo",
+    "file": "fizzbuzz.lg",
+    "run": "logo"
+  },
+  {
+    "name": "ADA",
+    "version": "Ada 2012",
+    "tested-with": "GNAT",
+    "file": "fizzbuzz.adb",
+    "compile": "gnat make",
+    "run": "./fizzbuzz"
+  }
+]

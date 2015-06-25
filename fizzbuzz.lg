@@ -1,0 +1,9 @@
+REPEAT 100 [ 
+  PRINT COND [
+    [ [EQUAL? 0 MODULO # 15] "FizzBuzz ]
+    [ [EQUAL? 0 MODULO # 3]  "Fizz ]
+    [ [EQUAL? 0 MODULO # 5]  "Buzz ]
+    [ "TRUE # ]
+  ]
+]
+BYE

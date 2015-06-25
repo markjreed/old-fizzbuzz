@@ -1,0 +1,19 @@
+ FIZZBUZZ: PROCEDURE OPTIONS (MAIN);
+
+      DCL SYSPRINT FILE PRINT;
+      DCL I FIXED DEC (3);
+
+      DO I = 1 TO 100;
+        IF MOD(I,15) = 0 THEN
+          PUT SKIP STRING(DATA('FizzBuzz'));
+        ELSE
+          IF MOD(I,3) THEN␣
+            PUT SKIP STRING(DATA('Fizz'));
+          ELSE
+            IF MOD(I,5) THEN␣
+              PUT SKIP STRING(DATA('Buzz'));
+            ELSE
+              PUT SKIP LIST(I);
+      END;
+
+    END FIZZBUZZ;
