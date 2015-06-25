@@ -2,6 +2,8 @@
 # Install everything needed to run these on a Mac
 echo "Looking for prerequisites..."
 rc=0
+echo -n "JSON Query processor: "
+if ! type -p jq; then echo "NOT FOUND"; rc=1; fi
 echo -n "Algol 68 Genie: "
 if ! type -p a68g; then echo "NOT FOUND"; rc=1; fi
 echo -n "GNAT: "
