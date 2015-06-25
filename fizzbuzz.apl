@@ -1,1 +1,2 @@
-        { ⍵ 'Fizz' 'Buzz' 'FizzBuzz'[ +/1 2×0=3 5|⍵] }¨1+⍳100
+⍝ Dyalog APL
+{ ⍵ 'Fizz' 'Buzz' 'FizzBuzz'[ +/1 2×0=3 5|⍵] }¨1+⍳100

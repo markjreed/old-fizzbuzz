@@ -1,4 +1,5 @@
-REPEAT 100 [ 
+; Berkeley Logo
+REPEAT 100 [
   PRINT COND [
     [ [EQUAL? 0 MODULO # 15] "FizzBuzz ]
     [ [EQUAL? 0 MODULO # 3]  "Fizz ]

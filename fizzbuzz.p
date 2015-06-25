@@ -1,4 +1,5 @@
-program fizzbuz(output);
+(* Pascal *)
+program fizzbuzz(output);
 
    var
       i: integer;

@@ -1,3 +1,4 @@
+; Common Lisp
 (flet ((divisible-by (m) (lambda (n) (zerop (mod m n)))))
   (let* ((rules '((3 Fizz) (5 Buzz) (15 FizzBuzz)))
          (factors (cons 1 (mapcar #'car rules))))

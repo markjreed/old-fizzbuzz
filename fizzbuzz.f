@@ -1,3 +1,4 @@
+C Fortran-77
       DO 10 I=1,100
         IF (MOD(I,15) .EQ. 0) THEN
           PRINT *, 'FizzBuzz'
