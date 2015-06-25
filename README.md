@@ -51,4 +51,4 @@ feel that's not too shabby.  The breakdown looks like this:
 
 And there we go.  This repo contains the programs, all of which have been
 tested except for the PL/I, and the script that I used to test all of them
-except the PL/I and the APL on my Mac.
+except the PL/I and the APL (which I ran in a Windows VM) on my Mac.
