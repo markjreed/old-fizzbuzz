@@ -8,10 +8,10 @@
         IF MOD(I,15) = 0 THEN
           PUT SKIP STRING(DATA('FizzBuzz'));
         ELSE
-          IF MOD(I,3) THEN␣
+          IF MOD(I,3) THEN
             PUT SKIP STRING(DATA('Fizz'));
           ELSE
-            IF MOD(I,5) THEN␣
+            IF MOD(I,5) THEN
               PUT SKIP STRING(DATA('Buzz'));
             ELSE
               PUT SKIP LIST(I);
